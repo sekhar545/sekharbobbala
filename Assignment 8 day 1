@@ -1,0 +1,10 @@
+<!doctype html>
+<html> 
+<head>
+<title> Favicon demo</title>
+<link rel="icon" href="faviconlogo.png" sizes="16*16" type="image/png" />
+</head>
+<body>  
+<h1> Displaying kits favicon </h1>
+</body>  
+</html>
