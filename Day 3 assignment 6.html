@@ -1,0 +1,40 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Input</title>
+</head>
+<body>
+	<form>
+		<label for="name">Name:</label>
+		<input type="name" id="name"/><br/>
+		<label for="Aadhar number">Aadhar number:</label>
+		<input type="aadhar number" id="aadharnumber"/><br/>
+		<label for="address">Address:</label>
+		<input type="address" id="address"/><br/>
+	</form>
+	<button onclick="readdata()">submit</button>
+	<script>
+		function readdata()
+		{
+			var name1=document.getElementById('name').val;
+			var aadharnumber1=document.getElementById('aadharnumber').val;
+			var address1=document.getElementById('address').val;
+			document.getElementById('name').innerHTML=name1;
+			document.getElementById('aadharnumber').innerHTML=aadharnumber1;
+			document.getElementById('address').innerHTML=address1;
+		}
+	</script>
+	<table border="2">
+		<tr>
+			<td>name</td>
+			<td>aadharnumber</td>
+			<td>address</td>
+		</tr>
+		<tr>
+			<td id="name">Yet to be released</td>
+			<td id="aadharnumber">Yet to be released</td>
+			<td id="address">Yet to be released</td>
+		</tr>
+	</table>
+</body>
+</html>
